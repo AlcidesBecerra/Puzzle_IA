@@ -52,4 +52,6 @@ Los resultados obtenidos fueron los siguientes:
 - El método con pila (DFS) exploró 133,633 estados, tardó 31 minutos con 47 segundos y encontró una solución que requiere 51,052 movimientos.  
 - El algoritmo A* exploró 1,497 estados, tardó 0.1 segundos y encontró una solución de 24 movimientos.
 
+El método de cola logra llevar a una solución optima explorando una gran cantidad de estados; a diferencia del método pila que, aun explorando una gran cantidad de estados, no consigue una solución similar. Sin embargo, el algoritmo A* destaca ya que, al usar un sistema de costos, logra optimizar la exploración a la par que consigue la solución correcta.
+
 Estos resultados muestran la eficiencia del algoritmo A* frente a los métodos de búsqueda no informada.
